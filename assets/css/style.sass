@@ -1,0 +1,274 @@
+@import "app/assets/css/normalize"
+@import "app/assets/css/bootstrap.min"
+@import "app/assets/css/common-multiuse.sass"
+
+/* main-style start */
+body
+	// font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important
+	color: #000
+section
+	
+	padding-top: 30px
+	padding-bottom: 30px
+	// margin-top: 68px
+
+
+	h1, h2
+		font-family: "Ubuntu", Arial, Helvetica, sans-serif
+		font-size: 42px
+		margin: 15px 0
+		line-height: 1.3
+
+
+.bg-section-dark:nth-child(1)
+	margin-top: 68px
+
+section:first-of-type
+	margin-top: 68px
+
+
+
+
+.text-block
+	p 
+		color: $text
+		font-size: 15px
+		color: $black
+		a 
+			text-decoration: none !important
+			color: $bold!important
+	pre
+		color: #000
+		font-size: 14px
+		overflow: hidden
+		white-space: pre-wrap
+		font-family: Arial, Helvetica Neue, Helvetica, sans-serif
+	img
+		max-width: 100%
+		height: auto
+		display: block
+		margin: 0 auto
+	.map
+		width: 100%
+		height: 400px
+
+
+.navbar
+	height: 68px
+	background: #fff
+	box-shadow: 0 0 5px 0px #00000047
+
+.navbar-brand 
+	font-size: 25px
+	color: #949188 
+	font-weight: bold
+	img
+		width: 32px
+		height: 32px
+	
+	span
+		margin-left: 0px
+		font-size: 24px
+
+.bg-section-dark
+	background: #f2eff2
+
+
+
+.carousel-caption
+	background: #ffffffb8
+	bottom: auto
+	// top: 30%!important
+	top: 25%
+	left: 35%
+	right: 35%
+	color: #000
+.photos
+	.carousel-item
+		img
+			width: auto
+.carousel-item
+	height: 65vh
+	img
+		width: auto
+		object-fit: contain
+		height: 65vh
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		margin: auto
+	button
+		background: #306aff
+		color: #fff
+		padding: 15px 35px
+		font-size: 13px
+		font-weight: bold
+		border-radius: 5px
+
+
+	span
+		color: #306aff
+	h2, h3
+		color: #306aff
+		font-weight: bold
+		font-size: 38px
+
+	p
+
+.contact 
+	a
+		color: #abbbfb
+
+.size
+	img
+		margin: 0 auto
+		display: block
+		max-width: 400px
+		width: 100%
+.photos
+	.carousel
+		img
+			max-height: 500px
+			margin: 0 auto
+
+.footer-call
+	background: #000
+	color: #fff
+
+.adress
+	padding-top: 0
+	padding-bottom: 0
+	h3
+		font-weight: bold
+
+
+.carousel-main img
+	// height: 590px
+	// max-width: 100%
+
+.carousel-control-next, .carousel-control-prev
+	background: #00000057
+	width: 40px
+	top: 40%
+	bottom: 40%
+.carousel-margin
+	width: 100%
+	// margin-top: -20%
+	// margin-top: -140px
+	margin-top: -21vw
+.carousel-margin2
+	width: 100%
+	// margin-top: -10%
+	// margin-top: -10px
+	margin-top: -13vw
+.carousel-control-prev
+	// left: auto
+	// right: 20px
+
+.block-carousel
+	padding-bottom: 0
+	padding-top: 0
+	// height: 800px
+
+	// img
+	// 	max-height: 800px
+	// 	width: 100%
+
+
+.in-list
+	div
+		text-align: center
+		display: flex
+		margin: 10px auto
+		min-width: 230px
+		max-width: 230px
+		flex-direction: column
+		align-items: center
+		padding: 20px 28px
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.08)
+		justify-content: center
+		p
+			font-size: 18px
+			// font-weight: bold
+			margin: 10px auto
+
+
+	div:hover
+		border-bottom: 2px solid #306aff  
+ 
+
+.list
+	.in-list
+		div
+			min-width: 280px
+			max-width: auto
+
+section
+	ul
+		li
+			margin-left: 20px
+
+
+
+.navbar-nav .active
+	.nav-link,
+	    color: rgba(0,0,0,0.9)
+	    border: 1px solid #007bff
+	    border-radius: 10px
+	    text-align: center
+
+
+
+@media only screen and (max-width: 768px)
+
+	.photos 
+		.carousel 
+			img 
+				// margin: 0 auto
+				// height: 300px
+				// width: auto
+				
+
+				margin: 0 auto
+				max-height: 372px
+				width: 100%
+				height: auto
+
+	.carousel-item
+		// height: auto
+		height: 530px
+	.carousel-inner
+		height: auto
+		img
+			width: 100%
+			object-fit: cover
+			height: 65vh
+
+	.carousel-caption
+		// top: 20%
+		left: 10%
+		right: 10%
+	.carousel-control-next, .carousel-control-prev
+		width: 30px
+
+@media only screen and (max-width: 992px)
+
+
+	.carousel-margin2,.carousel-margin
+		margin-top: auto
+
+	.navbar
+		.navbar-toggler
+			// outline: none!important
+			svg
+				// height: 30px
+				// width: auto
+
+	.navbar-nav
+		background: #fff
+		margin: 14px
+		padding: 10px
+		border-radius: 0 0 10px 10px
+		margin-top: auto

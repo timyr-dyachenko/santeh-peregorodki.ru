@@ -1,0 +1,109 @@
+// @font-face
+// 	font-family: 'OpenSans-Regular'
+// 	src: url(../fonts/OpenSans-Regular.ttf)
+
+// @font-face
+// 	font-family: 'OpenSans-Bold'
+// 	src: url(../fonts/OpenSans-Bold.ttf)
+
+// @font-face
+// 	font-family: 'OpenSans-Light'
+// 	src: url(../fonts/OpenSans-Light.ttf)
+
+$regular: 'OpenSans-Regular', sans-serif
+$bold: 'OpenSans-Bold', sans-serif
+$text: 'OpenSans-Light', sans-serif
+
+$black: #000
+$gray: #EDEDED
+$white: #fff
+
+@mixin box-shadow
+	box-shadow: 0 0 5px rgba(0,0,0,0.5)
+
+*
+	margin: 0
+	padding: 0
+	font-family: $text
+
+button, input, textarea, select
+	&:active, &:focus, &:hover, &.form-control, &.navbar-toggler
+		outline: none!important 
+
+html, body
+	width: 100%
+	background-color: $white
+
+@mixin flex-column
+	display: flex 
+	align-items: center 
+	flex-direction: column
+
+@mixin align-items-center
+	display: flex 
+	align-items: center
+
+@mixin justify-content-center
+	display: flex 
+	align-items: center
+	justify-content: center
+
+@mixin justify-content-between
+	display: flex 
+	align-items: center
+	justify-content: space-between
+
+@mixin justify-content-around
+	display: flex 
+	align-items: center
+	justify-content: space-around
+
+@mixin flex-wrap
+	display: flex 
+	align-items: center
+	justify-content: space-between
+	flex-wrap: wrap
+
+footer
+	background: #f5f5f5
+	padding-top: 1rem
+	padding-bottom: 1rem
+	p 
+		margin-bottom: 0
+		color: #6d6d6d
+		font-size: 14px
+		font-family: $text
+		&:last-of-type
+			font-size: 14px
+		a
+			font-size: 12px
+			font-family: $text
+			cursor: pointer
+			outline: none !important
+			color: #6d6d6d
+			text-decoration: none !important
+			&:hover
+				color: #6d6d6d
+
+.btn
+	outline: none!important
+	box-shadow: none
+	border-radius: 5px
+	color: #000!important
+	border: 1px solid black
+	background: #fff
+	font-size: 16px
+	font-weight: bold
+	cursor: pointer
+
+	padding: 5px 10px
+	font-family: $text
+	&:hover
+		color: #fff
+		background: #306aff
+	&:focus
+		box-shadow: none
+
+@media (min-width: 576px)
+	#policy .modal-dialog, #user .modal-dialog
+		max-width: 900px
