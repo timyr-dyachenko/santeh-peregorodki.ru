@@ -10,7 +10,7 @@
         <ul class="navbar-nav ml-auto mr-auto">
           
           <li class="nav-item">
-            <a class="nav-link" href="./order.php">Заказать расчет</a>
+            <a class="nav-link order-link" href="./order.php">Заказать расчет</a>
           </li>
           
           <li class="nav-item">

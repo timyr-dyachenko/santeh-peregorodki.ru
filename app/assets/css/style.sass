@@ -87,8 +87,6 @@ section:first-of-type
 		background: url('../img/shower4.jpg') no-repeat center/cover!important
 
 
-
-
 .main-block
 	position: relative
 	padding-bottom: 0
@@ -102,7 +100,7 @@ section:first-of-type
 		text-align: center
 		background: #ffffffb8
 		width: 100%
-		max-width: 320px
+		max-width: 310px
 		color: #000
 		padding: 20px 15px 
 		border-radius: 8px
@@ -218,6 +216,15 @@ section:first-of-type
 	display: flex
 	justify-content: center
 	align-items: center
+	.btn
+		background: #55901f
+		color: #fff!important
+		border-color: #00000045
+		transition: .3s
+		&:hover
+			background: #f6af32
+			border-color: #00000045
+			color: #000!important
 .in-list
 	div
 		text-align: center
@@ -252,12 +259,21 @@ section
 			margin-left: 20px
 
 
-
+.navbar-nav 
+	.nav-link
+		border: 1px solid #fff
+		text-align: center
+	.order-link
+		color: #55901f !important
+		font-weight: bold
+		box-shadow: 0 0 4px 1px #0000001f
+		margin-right: 5px
+		text-align: center
 .navbar-nav .active
 	.nav-link,
 	    color: rgba(0,0,0,0.9)
-	    border: 1px solid #007bff
-	    border-radius: 10px
+	    border-bottom: 2px solid #f6af3273
+	    // border-radius: 10px
 	    text-align: center
 
 
