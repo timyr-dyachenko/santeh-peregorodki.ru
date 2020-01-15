@@ -57,6 +57,15 @@
   $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 
+<section class="main-block partitions-children">
+    <div class="main-block__form">
+      <h2>МИРМЕБ</h2>
+      <span>Перегородки <b>детские</b> </span>
+      <h3>от 1350 р/м.кв</h3>
+      	<a href="order.php" class="btn">Подать заявку</a>
+    </div>
+</section>
+
 <section class="in-block1 bg-section-dark">
 	<div class="container">
 		<h2 class="text-center">Детские перегородки </h2>

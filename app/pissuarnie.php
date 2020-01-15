@@ -53,6 +53,15 @@
     </div>
 </nav>
 
+<section class="main-block partitions-pissuarnie">
+    <div class="main-block__form">
+      <h2>МИРМЕБ</h2>
+      <span><b>Писсуарные</b> перегородки</span>
+      <h3>от 1750 р/шт</h3>
+      	<a href="order.php" class="btn">Подать заявку</a>
+    </div>
+</section>
+
 <section class="in-block1 bg-section-dark">
 	<div class="container">
 		<h2 class="text-center">Писсуарные перегородки </h2>

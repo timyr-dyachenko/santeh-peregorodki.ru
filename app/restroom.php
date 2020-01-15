@@ -55,6 +55,15 @@
   $current_page = 'index';
 ?>
 
+<section class="main-block partitions-restroom">
+    <div class="main-block__form">
+      <h2>МИРМЕБ</h2>
+      <span><b>Туалетные</b> перегородки</span>
+      <h3>от 1350 р/м.кв.</h3>
+      	<a href="order.php" class="btn">Подать заявку</a>
+    </div>
+</section>
+
 <section class="in-block1 bg-section-dark">
 	<div class="container">
 		<h2 class="text-center">Туалетные перегородки </h2>

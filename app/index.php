@@ -67,26 +67,11 @@ $('.carousel').carousel({
 	</div>
 </section>
 
-<section class="block-carousel">
-<div class="bd-example">
-  <div id="carouselExampleCaptions" class="carousel slide carousel-main" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-     <!--  <li data-target="#carouselExampleCaptions" data-slide-to="4"></li> -->
-      <!-- <li data-target="#carouselExampleCaptions" data-slide-to="5"></li> -->
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item ">
-        <img src="assets/img/slider1.jpg" alt="...">
-        <div class="carousel-caption  d-md-block ">
-          <h2>МИРМЕБ</h2>
-          <span>Перегородки <b>детские</b> </span>
-          <h3>от 1150 р/м.кв</h3>
-		
-		<div style="width:80%; margin:0 auto;">
+<section class="main-block">
+    <div class="main-block__form">
+      <h2>МИРМЕБ</h2>
+      <span>Перегородки <b>детские</b> </span>
+      <h3>от 1150 р/м.кв</h3>
 		<form id="callback"  method="POST" >
 			<div class="form-group">
 			<input type="name" name="name" class="form-control" id="exampleInputPassword1" placeholder="Имя">
@@ -96,104 +81,8 @@ $('.carousel').carousel({
 			</div>
 			<button type="submit" class="btn">Подать заявку</button>
 		</form>
-		</div>
-		  
-        </div>
-      </div>
-      <div class="carousel-item active">
-        <img src="assets/img/slider5.jpg" alt="...">
-        <div class="carousel-caption  d-md-block">
-          <h2>МИРМЕБ</h2>
-          <span>Перегородки <b>туалетные</b></span>
-          <h3>от 1150р/м2</h3>
-          
-		  <div style="width:80%; margin:0 auto;">
-		<form id="callback"  method="POST" >
-			<div class="form-group">
-			<input type="name" name="name" class="form-control" id="exampleInputPassword1" placeholder="Имя">
-			</div>
-			<div class="form-group">
-			<input type="name" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Телефон">
-			</div>
-			<button type="submit" class="btn">Подать заявку</button>
-		</form>
-		</div>
-		  
-		  
-        </div>
-      </div>
-    <!--   <div class="carousel-item">
-      <img src="assets/img/slider3.jpg" alt="...">
-      <div class="carousel-caption  d-md-block">
-        <h2>МИРМЕБ</h2>
-        <span>Перегородки <b>писсуарные</b> </span>
-        <p>Широкий ассортимент санперегородок и фурнитуры</p>
-        <h3>от 1750 р/шт</h3>
-        <button onclick="location.href='./pissuarnie.php';">Подробней</button>
-      </div>
-    </div> -->
-      <div class="carousel-item">
-        <img src="assets/img/slider4.jpg" alt="...">
-        <div class="carousel-caption  d-md-block">
-          <h2>МИРМЕБ</h2>
-          <span>Перегородки <b>душевые</b> </span>
-          <h3>от 2650 р/шт</h3>
-          
-		  <div style="width:80%; margin:0 auto;">
-		<form id="callback"  method="POST" >
-			<div class="form-group">
-			<input type="name" name="name" class="form-control" id="exampleInputPassword1" placeholder="Имя">
-			</div>
-			<div class="form-group">
-			<input type="name" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Телефон">
-			</div>
-			<button type="submit" class="btn">Подать заявку</button>
-		</form>
-		</div>
-		  
-		  
-        </div>
-      </div>
-      <div class="carousel-item ">
-        <img src="assets/img/premium3.jpg" alt="...">
-        <div class="carousel-caption  d-md-block">
-          <h2>МИРМЕБ</h2>
-          <span>Перегородки <b>премиум</b> </span>
-          <h3>от 1750 р/шт</h3>
-          
-		  <div style="width:80%; margin:0 auto;">
-		<form id="callback"  method="POST" >
-			<div class="form-group">
-			<input type="name" name="name" class="form-control" id="exampleInputPassword1" placeholder="Имя">
-			</div>
-			<div class="form-group">
-			<input type="name" name="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Телефон">
-			</div>
-			<button type="submit" class="btn">Подать заявку</button>
-		</form>
-		</div>
-		  
-		  
-        </div>
-      </div>
-      
     </div>
-     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a> 
-  </div>
-</div>	
-
 </section>
-
-
-
-
 
 
 

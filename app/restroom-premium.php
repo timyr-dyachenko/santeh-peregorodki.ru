@@ -57,6 +57,16 @@ $path = parse_url($directoryURI, PHP_URL_PATH);
 $components = explode('./restroom-premium', $path);
 $first_part = $components[1];
 ?>
+
+<section class="main-block partitions-restroom-premium">
+    <div class="main-block__form">
+      <h2>МИРМЕБ</h2>
+      <span><b>Премиум</b> перегородки</span>
+      <h3>от 7500 р/м.кв.</h3>
+      	<a href="order.php" class="btn">Подать заявку</a>
+    </div>
+</section>
+
 <section class="in-block1 bg-section-dark">
 	<div class="container">
 		<h2 class="text-center">Премиум перегородки</h2>

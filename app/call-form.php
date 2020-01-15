@@ -21,7 +21,7 @@
 				  </div>
 				  <div class="form-group">
 				    <textarea class="form-control" id="exampleFormControlTextarea1" name="text" placeholder="Сообщение" rows="3"></textarea>
-				    <small id="emailHelp" class="form-text text-muted">* Обязательные поля</small>
+				    <!-- <small id="emailHelp" class="form-text text-muted">* Обязательные поля</small> -->
 				  </div>
 				  <!-- <div class="form-group">
 				    <label for="exampleFormControlFile1">Прикрепить файл</label>
