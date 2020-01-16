@@ -70,7 +70,7 @@ $('.carousel').carousel({
 <section class="main-block">
     <div class="main-block__form">
       <h2>МИРМЕБ</h2>
-      <span>Перегородки <b>детские</b> </span>
+      <span>Перегородки <b>туалетные</b> </span>
       <h3>от 1150 р/м.кв</h3>
 		<form id="callback"  method="POST" >
 			<div class="form-group">
